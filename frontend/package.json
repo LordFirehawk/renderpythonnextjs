@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "render-start": "next build && next start"
+    "render-start": "npm run build && npm start",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "react": "^18",
