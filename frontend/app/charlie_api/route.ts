@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const response = await fetch('http://localhost:5000/charlie', {
+    const response = await fetch('https://renderpythonnextjs-backend.onrender.com/charlie', {
       method: 'GET',
     });
 

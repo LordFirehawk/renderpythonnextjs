@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 export async function POST() {
   try {
-    const response = await fetch('http://localhost:5000/beta', {
+    const response = await fetch('https://renderpythonnextjs-backend.onrender.com/beta', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
